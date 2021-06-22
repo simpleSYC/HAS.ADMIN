@@ -1,7 +1,7 @@
 Vue.component("start_scrinot", {
   template: `<div>
     <h3 id="TiTle" style="text-align:center;position: relative;">HAS admin panel</h3>
-    <img id="imgLOGO" src="../SRC.HAS-SYC.system/MEDIA/HAS1000.png">
+    <img id="imgLOGO" src="https://simplesyc.github.io/HAS.SRC/MEDIA/HAS1000.png">
 
     <div id="LOG_TOGEL">
 <span style="top: 21px;left: 4%;position: absolute;">Login as :</span>
