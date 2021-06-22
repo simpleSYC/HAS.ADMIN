@@ -33,7 +33,7 @@ var signqqee = new Vue({
 });
 
 function Prenasocuvac(a) {
-  let url = "../HAS-SYC.system/index.html";
+  let url = "https://simplesyc.github.io/HAS.WEB/";
   if (window.name) {
     url = window.name;
   }
