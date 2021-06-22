@@ -1,0 +1,67 @@
+#MAIN_SCRIN {
+  display: none;
+}
+
+#Action_now {
+  top: 33%;
+  right: 0px;
+  background-color: antiquewhite;
+  width: 120px;
+  height: 120px;
+  border-radius: 35px;
+  position: absolute;
+}
+
+#Timer_button {
+  display: block;
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 35px;
+  background-color: darkgray;
+  opacity: 0.67;
+}
+
+#EDIT_PANEL {
+  display: none;
+  width: 120px;
+  right: 0px;
+  height: 120px;
+  border-radius: 35px;
+  position: absolute;
+}
+
+#Cancel_procedura {
+  display: none;
+  width: 120px;
+  height: 120px;
+  border-radius: 35px;
+  position: absolute;
+  background-color: #ff7f506b;
+}
+
+#Log_out {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  border-radius: 35px;
+  right: 0px;
+  background-color: #ff7f509e;
+}
+
+#Updejt_labels,
+#Open_upd_data_panel,
+#Updejt_data {
+  display: none;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 35px;
+  right: 0px;
+  background-color: aquamarine;
+}
+
+#Open_upd_data_panel {
+  background-color: aliceblue;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>HAS Admin Panel</title>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/vue@2.6.12"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.1.2/vuex.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito:400,600,700"
+    />
+
+    <link rel="stylesheet" href="index_files/SYT/c.css" />
+  </head>
+  <body style="overflow-x: hidden">
+    <div id="login_div" class="main-div">
+      <link href="index_files/CMP/STRscrince/c.css" rel="stylesheet" />
+      <start_scrinot />
+    </div>
+    <script
+      type="text/javascript"
+      src="index_files/CMP/STRscrince/j.js"
+    ></script>
+
+    <div id="PRE_chek" style="display: none; margin: 20px">
+      <button type="button" onclick="logout();" class="LogOutoBtn">
+        Log OUT
+      </button>
+      <div id="PRE_info">loading...</div>
+    </div>
+
+    <div id="MAIN_SCRIN">
+      <div id="Dashboardot">
+        <link href="index_files/CMP/DASHBOARD/c.css" rel="stylesheet" />
+        <dashboard />
+      </div>
+      <script
+        type="text/javascript"
+        src="index_files/CMP/DASHBOARD/j.js"
+      ></script>
+
+      <br />
+      <p id="SHWdata" style="margin-top: 130px"></p>
+
+      <table id="ControlPANEL" style="display: none; margin-top: 130px">
+        <tbody id="CL_controlPanel"></tbody>
+      </table>
+
+      <div id="STP_P_T">
+        <link href="index_files/CMP/T_txt/c.css" rel="stylesheet" />
+        <txt_t />
+      </div>
+      <script type="text/javascript" src="index_files/CMP/T_txt/j.js"></script>
+
+      <div id="T_AKK_SET">
+        <link href="index_files/CMP/T_acc/c.css" rel="stylesheet" />
+        <akk_t />
+      </div>
+      <script type="text/javascript" src="index_files/CMP/T_acc/j.js"></script>
+
+      <div id="FOTO_SET">
+        <link href="index_files/CMP/T_fto/c.css" rel="stylesheet" />
+        <fto_t />
+      </div>
+      <script type="text/javascript" src="index_files/CMP/T_fto/j.js"></script>
+
+      <div id="Intoro" style="overflow: auto; display: none">
+        <link href="index_files/CMP/T_log/c.css" rel="stylesheet" />
+        <intro_t />
+      </div>
+      <script type="text/javascript" src="index_files/CMP/T_log/j.js"></script>
+
+      <div id="MDLS">
+        <link href="index_files/CMP/MDLS/c.css" rel="stylesheet" />
+        <mdlste />
+      </div>
+      <script type="text/javascript" src="index_files/CMP/MDLS/j.js"></script>
+    </div>
+    <div id="bingo" style="display: none"><coper /></div>
+
+    <div id="SRCE">
+      <script
+        type="text/javascript"
+        src="index_files/CMP/COPERACIJA/j.js"
+      ></script>
+
+      <script
+        type="text/javascript"
+        src="../SRC.HAS-SYC.system/MEDIA/TBLA_SIMBOL.js"
+      ></script>
+
+      <script type="text/javascript" src="index_files/FUN/DEF.js"></script>
+      <script type="text/javascript" src="index_files/FUN/SYS.js"></script>
+
+      <script
+        type="text/javascript"
+        src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="https://www.gstatic.com/firebasejs/8.6.7/firebase-storage.js"
+      ></script>
+
+      <script
+        type="text/javascript"
+        src="../SRC.HAS-SYC.system/firebase/Preset/f.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="../SRC.HAS-SYC.system/firebase/aqwo-s_ADMIN.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="../SRC.HAS-SYC.system/firebase/FOTO.js"
+      ></script>
+
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/DareFUNKCIJ/Dare.js"
+      ></script>
+
+      <script type="text/javascript" src="index_files/FUN/Timersko.js"></script>
+
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/DareFUNKCIJ/S_AKKS.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/DareFUNKCIJ/S_LABELS.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/DareFUNKCIJ/S_FOTKI.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/DareFUNKCIJ/S_INTRO.js"
+      ></script>
+
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/Page.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/BTN_function.js"
+      ></script>
+      <script
+        type="text/javascript"
+        src="index_files/FUN/SECTOR/index.js"
+      ></script>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+      />
+    </div>
+  </body>
+</html>
